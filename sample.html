@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Review</title>
+</head>
+
+<body style="background-color:tomato">
+
+  <header>
+    <h1>Welcome to Movie Review 101</h1>
+    <nav>
+      <ul>
+        <a href="#">Home</a> | 
+        <a href="#">About</a> | 
+        <a href="#">Movies</a> | 
+        <a href="#">Contact</a>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+
+    <section>
+      <!--This is my paragraph-->
+      <p style="color: rgb(255, 255, 255);text-align: center; font-size: 24px;">Welcome to <strong>Movie Review 101</strong>We are reviewing the movies base on personal rating<br>
+        so please enjoy the website and leave the comment below.</p>
+    </section>
+
+    <section>
+      <h2>Top 3 movies</h2>
+
+      <article>
+        <img src="endgame.jpg" width="450" height="500" alt="cat3">
+        <p style="font-size: 20px;">Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers.
+          <br>Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU)</p>
+        <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" title="youtube">Watch the trailer here</a>
+      </article>
+
+      <article>
+        <img src="infinity war" width="450" height="500" alt="cat3">
+        <p style="font-size: 20px;">Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers.</p>
+        <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8">Watch the trailer here</a>
+      </article>
+
+      <article>
+        <img src="civil wa.jpg" width="450" height="500" alt="cat3">
+        <p style="font-size: 20px;">Captain America: Civil War is a 2016 American superhero film based on the Marvel Comics character Captain America,
+          <br>produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and Captain America: The Winter Soldier (2014), and the 13th film in the Marvel Cinematic Universe (MCU).</p>
+        <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8">Watch the trailer here</a>
+      </article>
+
+    </section>
+
+    <section>
+      <h2>Comment</h2>
+
+      <form>
+      
+        <fieldset>
+          <legend>Your Details</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Review</legend>          
+          <label for="comment">Comment:</label><br>
+          <textarea id="comment" name="comment"></textarea><br><br>
+
+          <label>Your Favorite Movies</label><br>
+          <input type="checkbox" id="movie1" name="movie1" value="movie1">
+          <label for="movie1">Avengers: Endgame</label><br>
+          <input type="checkbox" id="movie2" name="movie2" value="movie2">
+          <label for="movie2">Avengers: Infinity War</label><br>
+          <input type="checkbox" id="movie3" name="movie3" value="movie3">
+          <label for="movie3">Captain America: Civil War</label><br><br>
+          
+          <label>Your Rating</label><br>
+          <select id="rating" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select><br><br>
+          
+        </fieldset>
+
+        <input type="submit" value="Submit">
+
+      </form>
+
+    </section>
+
+  </main>
+  
+  <footer>
+    <p>Posted by Eavheang Oeng</p>
+    <a href="mailto:oengeavheang@gmail.com">
+    <p>Contact information: oengeavheang@gmail.com</p>
+    
+  </footer>
+
+</body>
+
+</html>
